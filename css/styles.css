@@ -536,6 +536,8 @@ ol {
   font-family: 'Roboto';
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 100px 0;
+  display: inline-block;
 }
 
 .footer-logo {
@@ -565,4 +567,8 @@ ol {
 .footer-logotype {
   color: #F4F4FD;
 
+}
+
+.foot-par {
+  min-width: 264px;
 }
