@@ -366,6 +366,18 @@ ol {
 .team-photo {
   padding-top: 120px;
   padding-bottom: 72px;
+  margin-bottom: 72px;
+}
+
+.team-list {
+  padding: 120px 0;
+
+}
+
+.team {
+  display: flex;
+  gap: 24px;
+
 }
 
 .image-main {
@@ -384,6 +396,10 @@ ol {
   color: var(--header-color);
   letter-spacing: 0.02em;
 
+}
+
+.image-main {
+  margin-right: 24px;
 }
 
 
@@ -485,6 +501,8 @@ ol {
   column-gap: 24px;
   margin-right: 24px;
   width: calc((100% - 48px) / 3);
+  row-gap: 48px;
+
 
 }
 
