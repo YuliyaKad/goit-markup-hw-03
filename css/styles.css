@@ -21,6 +21,7 @@ footer-logo  */
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--text-navy-color);
+  text-align: center;
 }
 
 .text-description {
@@ -29,6 +30,7 @@ footer-logo  */
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-slate-color);
+  text-align: center;
 }
 
 .text-footer {
@@ -505,13 +507,19 @@ ol {
   width: calc((100% - 48px) / 3);
   row-gap: 48px;
   border-radius: 0px 0px 4px 4px;
-  padding: 32px 16px;
+
 
 
 }
 
 .image link {
   text-decoration: none;
+}
+
+.image-main {
+  border-radius: 0px 0px 4px 4px;
+  padding: 32px 16px;
+
 }
 
 
