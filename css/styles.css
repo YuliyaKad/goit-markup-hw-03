@@ -51,6 +51,7 @@ footer-logo  */
   --text-cloud-color: #F4F4FD;
   --text-iris-color: #4D5AE5;
   --text-ocean-color: #404BBF;
+  --button-color:#e7e9fc;
 }
 
 a:link {
@@ -438,6 +439,11 @@ ol {
 
 /* --------PORTFOLIO------- */
 
+.main-section {
+  padding: 96px 0 120px;
+
+}
+
 .filter-button {
   min-width: 69px;
   width: 586px;
@@ -446,6 +452,9 @@ ol {
   align-items: center;
   gap: 24px;
   padding-left: 427px;
+  justify-content: center;
+  margin-bottom: 72px;
+
 
 }
 
@@ -454,6 +463,10 @@ ol {
   align-items: center;
   min-width: 69px;
   height: 48px;
+  padding: 12px 24px;
+  border: 1px solid var(--button-color);
+  border-radius: 4px;
+  
 }
 
 .button-port {
