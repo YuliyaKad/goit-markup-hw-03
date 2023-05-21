@@ -331,7 +331,14 @@ img {
   padding: 120px 0
 }
 
-.main-description {}
+.about-us {
+  margin: 0;
+  padding: 0;
+}
+
+.main-description {
+  width: calc((100% - 72px) / 4);
+}
 
 .about-us {
   display: flex;
@@ -575,7 +582,15 @@ img {
 
 }
 
-.images link {}
+.our-projects {
+  margin: 0;
+  padding: 0;
+
+}
+
+.images link {
+  width: calc((100% - 48px) / 3);
+}
 
 .image link {
   text-decoration: none;
