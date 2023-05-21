@@ -307,9 +307,10 @@ img {
   border-radius: 4px;
 }
 
+/* 
 .main-description {
   width: calc((100% - 72px) / 4);
-}
+} */
 
 .button-main:hover,
 .button-main:focus {
@@ -330,7 +331,7 @@ img {
   padding: 120px 0
 }
 
-.main-description{
+.main-description {
   width: calc((100% - 72px) / 4);
 }
 
@@ -342,7 +343,7 @@ img {
 
 .list-text {
   margin-bottom: 8px;
-  
+
 }
 
 .about-us li {
@@ -383,7 +384,7 @@ img {
   display: flex;
   align-items: center;
   gap: 24px;
-  width: calc((100% - 48px) / 3);
+
 }
 
 .our-work-pic {
