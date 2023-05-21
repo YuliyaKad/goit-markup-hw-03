@@ -587,13 +587,13 @@ img {
 
 }
 
-.our-projects {
+.our-projects .list {
   margin: 0;
   padding: 0;
 
 }
 
-.images {
+.images link {
   width: calc((100% - 48px) / 3);
 }
 
