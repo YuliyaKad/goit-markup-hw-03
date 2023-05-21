@@ -139,7 +139,7 @@ img {
 .nav-main {
   display: flex;
   align-items: center;
-  
+
 
 }
 
@@ -212,9 +212,12 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
+
 }
 
+.top-studio {
+  padding: 24px 0;
+}
 
 
 
