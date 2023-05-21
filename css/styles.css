@@ -422,9 +422,8 @@ img {
 }
 
 .team-list {
-  padding: 120px 0;
-
-
+  margin: 0;
+  padding: 0;
 }
 
 .team {
@@ -435,6 +434,7 @@ img {
 
 .image-main {
   background-color: #FFFFFF;
+  width: calc((100% - 72px) / 4);
 
 
 }
