@@ -330,7 +330,7 @@ img {
   padding: 120px 0
 }
 
-.main-description {
+.main-description{
   width: calc((100% - 72px) / 4);
 }
 
@@ -342,7 +342,7 @@ img {
 
 .list-text {
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
+  
 }
 
 .about-us li {
