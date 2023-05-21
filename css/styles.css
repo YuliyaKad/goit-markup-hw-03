@@ -593,7 +593,7 @@ img {
 
 }
 
-.images link {
+.images {
   width: calc((100% - 48px) / 3);
 }
 
