@@ -330,7 +330,9 @@ img {
   padding: 120px 0
 }
 
-.main-description {}
+.main-description {
+  width: calc((100% - 72px) / 4);
+}
 
 .about-us {
   display: flex;
