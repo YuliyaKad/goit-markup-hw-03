@@ -431,6 +431,12 @@ img {
 
 }
 
+.team-list {
+  margin: 0;
+  padding: 0;
+
+}
+
 .image-main {
   background-color: #FFFFFF;
   width: calc((100% - 72px) / 4);
