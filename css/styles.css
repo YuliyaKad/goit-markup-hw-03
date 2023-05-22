@@ -227,10 +227,10 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  
+
 }
 
-.top-studio  {
+.top-studio {
   padding: 24px 0;
   font-family: 'Roboto', sans-serif;
 
@@ -238,7 +238,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   padding: 24px 0;
-  
+
   letter-spacing: 0.02em;
   color: #2E2F42;
 }
@@ -648,12 +648,12 @@ img {
 
 }
 
-.image {
+.images {
   margin: 0;
   padding: 0;
 }
 
-.image link {
+.images {
   width: calc((100% - 48px) / 3);
 }
 
