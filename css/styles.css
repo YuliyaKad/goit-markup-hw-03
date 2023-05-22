@@ -227,10 +227,10 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
+  
 }
 
-.top-studio link {
+.top-studio  {
   padding: 24px 0;
   font-family: 'Roboto', sans-serif;
 
@@ -238,10 +238,8 @@ img {
   font-size: 16px;
   line-height: 1.5;
   padding: 24px 0;
-
+  
   letter-spacing: 0.02em;
-
-
   color: #2E2F42;
 }
 
