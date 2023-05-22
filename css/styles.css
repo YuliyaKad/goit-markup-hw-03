@@ -134,7 +134,7 @@ img {
 
 .top-line {
   border-bottom: 1px solid #e7e9fc;
-  height: 72px;
+  
 
 
 }
@@ -176,7 +176,7 @@ img {
 
 .main-logo {
   margin-right: 76px;
-  /* padding: 24px 0; */
+  padding: 24px 0;
 
 }
 
@@ -215,6 +215,7 @@ img {
 
   color: #2E2F42;
   
+  
 }
 
 .top-line-nav {
@@ -239,13 +240,17 @@ img {
 }
 
 .top-studio {
-  padding: 24px 0;
+  /* padding: 24px 0; */
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2E2F42;
+  gap: 40px;
+  
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 
