@@ -237,7 +237,7 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
+  padding: 24px 0;
 
   letter-spacing: 0.02em;
 
@@ -655,7 +655,7 @@ img {
   padding: 0;
 }
 
-.images link {
+.image link {
   width: calc((100% - 48px) / 3);
 }
 
