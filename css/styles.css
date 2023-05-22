@@ -82,7 +82,7 @@ body {
 
 }
 
-.p,
+p,
 h1,
 h2,
 h3,
@@ -134,6 +134,7 @@ img {
 
 .top-line {
   border-bottom: 1px solid #e7e9fc;
+  height: 72px;
 
 
 }
@@ -159,6 +160,7 @@ img {
   letter-spacing: 0.03em;
 
   color: #4D5AE5;
+  
 
 }
 
@@ -174,6 +176,7 @@ img {
 
 .main-logo {
   margin-right: 76px;
+  /* padding: 24px 0; */
 
 }
 
@@ -186,6 +189,7 @@ img {
   font-style: normal;
   align-items: center;
   margin-left: auto;
+  padding: 24px 0;
   /* display: flex;
   justify-content: flex-end; */
 }
@@ -196,7 +200,9 @@ img {
   margin-left: 332px;
   
 } */
-
+.top-conteiner{
+  border-bottom: 1px solid var(--background-color);
+}
 
 .top-line-nav a {
   color: #2E2F42;
@@ -208,6 +214,7 @@ img {
   letter-spacing: 0.02em;
 
   color: #2E2F42;
+  
 }
 
 .top-line-nav {
@@ -220,6 +227,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  
 
 }
 
@@ -233,12 +241,9 @@ img {
 .top-studio {
   padding: 24px 0;
   font-family: 'Roboto', sans-serif;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  padding: 24px 0;
-
   letter-spacing: 0.02em;
   color: #2E2F42;
 }
@@ -293,16 +298,26 @@ img {
   overflow: hidden;
 }
 
+
+
+.container-button {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
 .main-about {
-  padding: 120px 0;
+  
+  padding: 188px 0;
 }
 
 .main-title {
   display: flex;
   background-color: #2E2F42;
-
+  /* margin: 0 auto; */
   padding: 188px 0;
-
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -313,11 +328,16 @@ img {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  margin: 0 auto;
+  line-height: 60px;
+  margin-bottom: 48px;
+  max-width: 496px;
+  
 }
 
-.main-title-text {
-  max-width: 496px;
-  flex-grow: 1;
+.main-title-section {
+  /* max-width: 496px;
+  flex-grow: 1; */
   margin: 0 auto;
 
 
@@ -341,14 +361,11 @@ img {
   border-radius: 4px;
   padding: 16px 32px;
   gap: 10px;
-
-
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   display: block;
-  margin-left: auto;
-  margin-right: auto
+  margin: 0 auto;
+
 }
-
-
 
 /* .button-main { */
 /*   
@@ -435,8 +452,8 @@ img {
 
 /* SECTION 3 */
 .doing-list {
-  padding-top: 185px;
-  padding-bottom: 120px;
+  /* padding-top: 185px;
+  padding-bottom: 120px; */
 
 
 }
