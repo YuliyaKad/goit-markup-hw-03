@@ -135,6 +135,7 @@ img {
 .top-line {
   border-bottom: 1px solid #e7e9fc;
 
+
 }
 
 .top-conteiner {
@@ -226,7 +227,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-
+  padding: 24px 0
 }
 
 .top-studio link {
@@ -281,6 +282,19 @@ img {
 
 /* ---------------SECTION 2----------------------- */
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .main-about {
   padding: 120px 0;
 }
@@ -324,9 +338,9 @@ img {
 
   height: 56px;
   align-items: center;
-
-
-
+  min-width: 169px;
+  border: none;
+  border-radius: 4px;
   padding: 16px 32px;
   gap: 10px;
 
@@ -515,6 +529,10 @@ img {
 
 }
 
+.team-container {
+  padding: 32px 16px;
+}
+
 
 
 
@@ -626,8 +644,15 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 
 
+
+}
+
+.images {
+  margin: 0;
+  padding: 0;
 }
 
 .images {
@@ -670,6 +695,7 @@ img {
   text-transform: uppercase;
   color: #4D5AE5;
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 
