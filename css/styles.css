@@ -111,7 +111,7 @@ img {
 .list {
   list-style: none;
   display: flex;
-  gap: 24px;
+
 }
 
 .team-list {
@@ -148,8 +148,10 @@ img {
 .nav-main {
   display: flex;
   align-items: center;
+}
 
-
+.contacts-us a {
+  text-decoration: none;
 }
 
 .nav-main {
@@ -158,6 +160,7 @@ img {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+
 
   color: #4D5AE5;
 
@@ -240,7 +243,7 @@ img {
 }
 
 .top-studio {
-  /* padding: 24px 0; */
+  padding: 24px 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -249,8 +252,7 @@ img {
   color: #2E2F42;
   gap: 40px;
 
-  padding-top: 24px;
-  padding-bottom: 24px;
+
 }
 
 
@@ -273,10 +275,10 @@ img {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
-
-
-
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
 }
 
 .contacts-us {
